@@ -45,7 +45,7 @@ This project provides a Python script to export all Cloudflare Page Rules for a 
 ## Example Output
 
 ```hcl
-resource "cloudflare_page_rule" "rule_1_vitija_de_expense" {
+resource "cloudflare_page_rule" "rule_1_abcdef.de_expense" {
 	zone_id  = "xxxxxxxxx6e9c3737fc5a92cc5919"
 	target   = "abcdef.de/expense"
 	priority = 3
